@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="tvInfo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="application.ViewController">
+  <columns>
+    <TableColumn fx:id="colId" prefWidth="75.0" text="아이디" />
+    <TableColumn fx:id="colPwd" prefWidth="75.0" text="비밀번호" />
+      <TableColumn fx:id="colName" prefWidth="75.0" text="이름" />
+      <TableColumn fx:id="colNum" prefWidth="75.0" text="학번" />
+      <TableColumn fx:id="colPhone" prefWidth="75.0" text="연락처" />
+      <TableColumn fx:id="colMajor" prefWidth="75.0" text="전공" />
+      <TableColumn fx:id="colType" prefWidth="75.0" text="성별" />
+      <TableColumn fx:id="colAddress" prefWidth="75.0" text="주소" />
+  </columns>
+</TableView>

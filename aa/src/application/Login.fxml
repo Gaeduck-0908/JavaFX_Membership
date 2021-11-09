@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="application.LoginController">
+   <children>
+      <ImageView fitHeight="100.0" fitWidth="351.0" layoutX="213.0" layoutY="30.0" pickOnBounds="true">
+         <image>
+            <Image url="@로고1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="321.0" fitWidth="174.0" layoutX="27.0" layoutY="30.0" pickOnBounds="true">
+         <image>
+            <Image url="@그림3.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="213.0" layoutY="152.0" style="-fx-background-color: white;" text="사용자 아이디">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="213.0" layoutY="199.0" prefHeight="27.0" prefWidth="138.0" style="-fx-background-color: white;" text="패스워드">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="364.0" layoutY="151.0" promptText="아이디를 입력하세요">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnLogin" layoutX="212.0" layoutY="247.0" mnemonicParsing="false" onAction="#btnLoginAction" prefHeight="51.0" prefWidth="167.0" style="-fx-background-color: blue;" text="로그인" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnReg" layoutX="380.0" layoutY="247.0" mnemonicParsing="false" onAction="#btnRegAction" prefHeight="51.0" prefWidth="182.0" style="-fx-background-color: blue;" text="회원가입" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCancel" layoutX="212.0" layoutY="315.0" mnemonicParsing="false" onAction="#btnCancelAction" prefHeight="36.0" prefWidth="167.0" style="-fx-background-color: red;" text="취소" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClose" layoutX="380.0" layoutY="315.0" mnemonicParsing="false" onAction="#btnCloseAction" prefHeight="36.0" prefWidth="182.0" style="-fx-background-color: red;" text="창닫기" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="txtPwd" layoutX="364.0" layoutY="198.0" promptText="암호를 입력하세요">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="lblLogininfo" layoutX="216.0" layoutY="357.0" prefHeight="29.0" prefWidth="345.0" style="-fx-background-color: white;" text="로그인정보:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnTabelview" layoutX="54.0" layoutY="358.0" mnemonicParsing="false" onAction="#btnTableviewAction" prefHeight="27.0" prefWidth="120.0" style="-fx-background-color: blue;" text="Tableview" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
